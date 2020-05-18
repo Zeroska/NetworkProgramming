@@ -20,17 +20,17 @@ void questionThree(int firstNumber, int secondNumber, int thirdNumber)
     {
         if (firstNumber > thirdNumber)
         {
-            printf("%d is the greatest among three \n",firstNumber);
+            printf("%d is the greatest among three \n", firstNumber);
         }
         else
         {
-            printf("%d is the greatest among three \n",thirdNumber);
+            printf("%d is the greatest among three \n", thirdNumber);
         }
     }
     else if (secondNumber > thirdNumber)
-        printf("%d is the greatest among three \n",secondNumber);
+        printf("%d is the greatest among three \n", secondNumber);
     else
-        printf("%d is the greatest among three \n",thirdNumber);
+        printf("%d is the greatest among three \n", thirdNumber);
 }
 
 int questionFour(int n)
@@ -133,7 +133,7 @@ int main(void)
     questionOne();
     questionTwo(23, 3);
 
-    questionThree(1,2,3);
+    questionThree(1, 2, 3);
     questionFour(12);
 
     questionFive(100);

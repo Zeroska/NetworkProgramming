@@ -1,0 +1,5 @@
+1. Write a client/server program in which the server executes simple operations (+, -, *, /)
+a. Server receives: 1+2 --> replies: 1+2=3
+b. Server receives 120+12 --> replies: 120+12=132 
+
+2. Write a client/server program in which the server receives a string, and sends the result to its client after removing all redundant spaces in that string

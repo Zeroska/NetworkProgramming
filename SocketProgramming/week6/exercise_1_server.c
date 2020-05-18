@@ -9,7 +9,7 @@
 #include <time.h>
 #define MAX 1024
 
-//./a.out 127.0.0.1 <string>
+
 int main(){
     int listenfd, connfd, val;
     struct sockaddr_in servAddr;
