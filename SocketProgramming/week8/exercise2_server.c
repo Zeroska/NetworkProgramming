@@ -23,6 +23,8 @@ int main(){
     servAddr.sin_family = AF_INET;
     servAddr.sin_addr.s_addr = INADDR_ANY; //127.0.0.1 will be the best 
     servAddr.sin_port = htons(80);
+    //OMG if I keep doing this shit, soon I will die 
+    
     bind(listenfd, (struct sockaddr *) &servAddr,sizeof(servAddr));
     listen(listenfd,100);
     for(;;){
